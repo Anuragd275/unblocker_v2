@@ -1,13 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap');
 
-body{
+body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #ECF0F1 ;
+    background-color: #ECF0F1;
 }
 
-.box{
+.box {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -15,23 +15,25 @@ body{
     font-family: 'Nunito Sans', sans-serif;
 }
 
-#text, #subtext{
+#text,
+#subtext {
     font-weight: 700;
 }
 
-.siteBox{
+.siteBox {
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
 }
 
-.sites{
+.sites {
     padding-top: 2rem;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
-a{
+a {
     text-decoration: none;
     color: #5256F4;
     font-size: 1.2rem;
@@ -40,12 +42,12 @@ a{
     border-radius: 4px;
 }
 
-p{
+p {
     padding-top: 2rem;
 }
 
-@media(max-width: 650px){
-    .sites{
+@media(max-width: 650px) {
+    .sites {
         flex-direction: column;
     }
 }
