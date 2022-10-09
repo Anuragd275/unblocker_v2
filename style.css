@@ -28,6 +28,7 @@ body {
 
 .sites {
     padding-top: 2rem;
+    padding-left: 4rem;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
