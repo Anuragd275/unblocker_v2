@@ -47,6 +47,10 @@ p {
     padding-top: 2rem;
 }
 
+#contributeLink {
+    border: none;
+}
+
 @media(max-width: 650px) {
     .sites {
         flex-direction: column;
