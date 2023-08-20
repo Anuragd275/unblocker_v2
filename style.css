@@ -70,4 +70,8 @@ p {
         flex-direction: column;
         padding-left: 0;
     }
+
+    #disclaimer{
+        padding-left: 2rem;
+    }
 }
