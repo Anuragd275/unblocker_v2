@@ -1,62 +1,335 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width =device-width, initial-scale=1" />
-    <title>UNBLOCKER</title>
-    <link rel="shortcut icon" href="flash.png" />
-    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Unblocker</title>
+    <meta
+      name="description"
+      content="Unblocker is an open source project to help people to visit
+    websites which are not accessible easily to normal people."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
-    <div class="box">
-      <div class="title">
-        <h1 id="text">UNBLOCKER</h1>
-        <h2 id="subtext">Torrent Unblocker</h2>
-      </div>
-      <div class="sites">
-        <div class="siteBox">
-          <a href="https://1337x.unblockit.vegas/" class="torrent">1337X</a>
-        </div>
-        <div class="siteBox">
-          <a href="https://proxy-bay.page/" class="torrent">Pirates Bay</a>
-        </div>
-        <div class="siteBox">
-          <a href="https://fitgirlrepacks.unblockit.vegas/" class="torrent"
-            >FitGirl Repacks</a
+    <!--
+      // v0 by Vercel.
+      // https://v0.dev/t/N51bbPV1M8i
+    -->
+    <div id="main" style="font-family: Inter" class="bg-white dark:bg-black">
+      <nav class="flex items-center justify-center p-6">
+        <div>
+          <a href="index.html"
+            ><h2 class="font-bold text-4xl text-gray-900 dark:text-white">
+              UNBLOCKER
+            </h2></a
           >
+          <p class="text-zinc-400 dark:text-gray-400">
+            Unblock your favorite sites!
+          </p>
         </div>
-        <div class="siteBox">
-          <a href="https://tamilmv.unblockit.vegas/" class="torrent"
-            >Tamil MV</a
-          >
+      </nav>
+      <section
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 xl:gap-4 mx-4"
+      >
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://proxybay.unblockit.dad/"
+              target="_blank"
+            >
+              The Pirates Bay
+            </a>
+          </div>
         </div>
-        <div class="siteBox">
-          <a href="https://yts.unblockit.vegas/" class="torrent">YTS</a>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://1337x.unblockit.dad/"
+            >
+              1337X
+            </a>
+          </div>
         </div>
-        <div class="siteBox">
-          <a href="https://scnsrc.unblockit.nz/" class="torrent"
-            >Scene Source</a
-          >
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://yts.unblockit.dad/"
+            >
+              YTS
+            </a>
+          </div>
         </div>
-        <div class="siteBox">
-          <a href="https://magnetdl.unblockit.nz/" class="torrent">MagnetDL</a>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://eztv.unblockit.dad/"
+            >
+              EZTV
+            </a>
+          </div>
         </div>
-        <div class="siteBox">
-          <a href="https://softarchive.unblockit.nz/" class="torrent"
-            >Soft Achive</a
-          >
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://magnetdl.unblockit.dad/"
+            >
+              MagnetDL
+            </a>
+          </div>
         </div>
-      </div>
-      <p id="disclaimer">
-        Disclaimer: I take *NO* responsibility for any of the sites mentioned
-        above.
-      </p>
-      <p class="contribute">
-        <a href="https://github.com/Anuragd275/unblocker_v2" id="contributeLink"
-          >Click here</a
-        >
-        to add your favorite site by GitHub
-      </p>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://limetorrents.unblockit.dad/"
+            >
+              Lime Torrents
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://solarmovie.unblockit.dad/home"
+            >
+              Solar Movies
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://putlocker.unblockit.dad/"
+            >
+              PutLocker
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://pw1.unblockit.dad/"
+            >
+              PrimeWire
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://fitgirlrepacks.unblockit.dad/"
+            >
+              FitGirl Repacks
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://softarchive.unblockit.dad/"
+            >
+              Soft Archive
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://worldfree4.unblockit.dad/"
+            >
+              WorldFree4
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://downturk.unblockit.dad/"
+            >
+              Down Turk
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://beemp3.unblockit.dad/en5.html"
+            >
+              Bee Mp3
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://mp3juices.unblockit.dad/en10/"
+            >
+              Mp3 Juices
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://libgen.unblockit.dad/"
+            >
+              Libgen
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://annasarchive.unblockit.dad/"
+            >
+              AnnasArchive
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://freebookspot.unblockit.dad/"
+            >
+              FreeBookSpot
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://www.pdfdrive.com/"
+            >
+              PDFDrive
+            </a>
+          </div>
+        </div>
+        <div class="rounded-lg">
+          <div class="p-4 md:p-6 grid gap-4">
+            <a
+              class="inline-block w-full py-2 rounded-md border font-semibold text-sm border-gray-200 bg-gray-50 text-gray-900 dark:border-gray-800 dark:bg-gray-950 dark:text-gray-100 flex items-center justify-center transition-colors"
+              href="https://audiobb.unblockit.dad/"
+            >
+              Audio BB
+            </a>
+          </div>
+        </div>
+      </section>
+      <footer class="border-t bg-gray-50 dark:bg-gray-950">
+        <div class="container flex flex-col min-h-[300px] py-4 grid gap-2 px-4">
+          <div class="flex items-center justify-between">
+            <a
+              class="flex items-center gap-2 text-xl font-bold"
+              href="index.html"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                class="w-6 h-6 text-primary"
+              >
+                <rect
+                  width="18"
+                  height="18"
+                  x="3"
+                  y="3"
+                  rx="2"
+                  class="dark:text-white"
+                ></rect>
+              </svg>
+              <span class="text-black dark:text-white">Unblocker</span>
+            </a>
+            <div class="grid gap-4 flex-1 max-w-2xl ml-4">
+              <p class="text-xs text-gray-500 dark:text-gray-400">
+                Unblocker is an open source project to help people to visit
+                websites which are not accessible easily to normal people.
+              </p>
+            </div>
+          </div>
+          <div class="grid gap-2 md:flex md:items-center md:justify-between">
+            <div class="flex items-center gap-4">
+              <p class="text-xs text-gray-500 dark:text-gray-400">
+                © 2024 Unblocker. All rights reserved.
+              </p>
+            </div>
+            <ul class="flex items-center gap-4 text-base md:gap-8">
+              <li>
+                <a
+                  class="text-gray-500 dark:text-gray-400 hover:underline"
+                  href="https://github.com/Anuragd275/unblocker_v2"
+                  target="_blank"
+                >
+                  GitHub
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 dark:text-gray-400 hover:underline"
+                  href="terms.html"
+                >
+                  Terms
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 dark:text-gray-400 hover:underline"
+                  href="mailto:tonythestark7@gmail.com"
+                  target="_blank"
+                >
+                  Contact
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
